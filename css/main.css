@@ -1,3 +1,130 @@
-/*
- * Estilos de tu proyecto
- */
+
+body {
+  margin:0 auto;
+  font-size:16px;
+  line-height:1.71429;
+  font-family:'Raleway',sans-serif;
+
+  background-color:#76278F;
+
+}
+img {
+  vertical-align:middle;
+}
+a {
+  color:white;
+  text-decoration:none;
+  text-transform: uppercase;
+  text-underline-position: left;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  line-height: : 200px;
+
+
+}
+a:hover {
+  color: #FF00BF;
+}
+
+header {
+  position:fixed;
+  width:100%;
+  top:45px;
+}
+.logo {
+  float:left;
+  margin-left: 80px;
+  margin-top: 50px;
+
+
+}
+#home {
+  height:800px;
+  text-align:center;
+  margin-top:80px;
+}
+#home .container {
+  color:#352384;
+  padding:70px;
+}
+.log{
+  color:white;
+  padding:15px 30px;
+  text-transform:uppercase;
+  margin-top:70px;
+  display:inline-block;
+}
+.box1{
+  widows: 300%;
+  color: white;
+}
+
+#servicios{
+  background-color:#FF00BF;
+  height: 900px;
+  top: 300px;
+}
+.phone{
+	left: 60px;
+	float: right;
+	width: 500px;
+  margin-right: 300px;
+}
+
+.phone img{
+
+	height: 100%;
+	padding-top: 5%;
+
+}
+
+.servicios{
+  background-color:#76278F;
+  color: #fff;
+  padding: 100px;
+}
+
+.tex1, .tex2, .tex3{
+  position: relative;
+  width: 50%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.whatch1, .whatch2, .whatch3{
+	width: 100%;
+	overflow: hidden; /*necesario ya q estas secciones se posicionan con float*/
+	position: relative;
+	background-color: white;
+	height:400px;
+	padding: 0px;
+  top: 600px;
+}
+.video1, .video3{
+	float: right;
+}
+.video2{
+  float: left;
+}
+iframe{
+	width:850px;
+	height:500px;
+}
+footer{
+  background-color:#333447;
+  color: #fff;
+  text-align: center;
+}
+.columns{
+  margin-right: 400px;
+}
+#column4{
+  position: relative;
+  height: 600px;
+  margin-left: 700px;
+
+
+}
